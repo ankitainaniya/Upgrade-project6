@@ -20,3 +20,18 @@ top_button_2.onclick = function() {
 close_span_1.onclick = function() {
   signin_modal.style.display = "none";
 }
+
+var linking_href= document.getElementById("linking");
+linking_href.onclick= function(){
+  signin_modal.style.display = "none";
+  signup_modal.style.display = "block";
+}
+
+var create_Post_button= document.getElementById("create_Post_button");
+var close_span_2 = document.getElementsByClassName("close")[2];
+create_Post_button.onclick= function(){
+  create_post_model.style.display = "block";
+}
+close_span_2.onclick = function() {
+  create_post_model.style.display = "none";
+}

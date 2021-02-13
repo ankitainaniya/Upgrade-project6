@@ -11,7 +11,6 @@
     
 </head>   
 <body>
-    <!-- TODO: Include all your code for the header and home page here -->
 
      <div class="header">
       <button id ="top_button_1" >Sign Up</button>
@@ -24,7 +23,7 @@
 <div id = "mid_button_area">
       <p align = "center">
           <a href = "html/postslist.html">
-            <button class= "middle_button">
+            <button class= "middle_button" id="all_post_button">
               All Posts 
             </button>
           </a>
@@ -40,7 +39,7 @@
       &times;
     </span>
     <p>
-      <h1>Get Started</h1>
+      <h2>Get Started</h2>
       <hr class = "hr-Shade">
       <form class = "form-style">
       <label>Full Name</label><br>
@@ -74,12 +73,28 @@
         <button class = "Sign-Up-Button">
           Sign In
         </button><br>
-        Not a member ? <a id = "linking">Sign Up</a>
+        Not a member ? <a id = "linking" onclick='href_click()'>Sign Up</a>
       </form>       
     </p>
   </div>
 </div>
 
+<div id="create_post_model" class="modal">                  
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>
+	<form class = "form-style"> 
+        <h2>Create Your Post</h2>
+        <hr class = "hr-shade">
+        <h4>Pen Your Post</h4>
+        <input type="text" placeholder="Enter title of your post">
+        <h4>Content</h4>
+        <textarea name="Content" id="textArea"  rows="10" placeholder="Enter content of your post"></textarea>  
+        <button class = sign-up-button>Create</button>    
+	</form> 
+      </p>
+    </div>
+  </div>
 <script src = "js\index.js"></script>
 </body>
 

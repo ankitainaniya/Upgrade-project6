@@ -38,6 +38,7 @@
   {
     width: 100% ;
     background-color: #4caf50 ;
+    font-weight: bold ;
   
   }
   .Sign_Up_Button:hover
@@ -54,6 +55,17 @@
     width:95%;
     height:35px;
   }
+  textarea
+  {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #f1f1f1;
+    display: block;
+    width:95%;
+    margin: 2% auto;
+    
+   }
   .form-style label{
 
     padding: 5px ; 
@@ -89,7 +101,8 @@ button#top_button_1 {
     background: #0000ff;
     color: #fff;
     float: right;   
-    margin:  5px ;               
+    margin:  5px ;   
+    font-weight: bold;            
    
    }
    button#top_button_2 {
@@ -100,7 +113,8 @@ button#top_button_1 {
        background: #0000ff;
        color: #fff;
        float: right;  
-       margin:5px ;                
+       margin:5px ;  
+       font-weight: bold;              
       }
 
    
