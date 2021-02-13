@@ -1,0 +1,123 @@
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding: 30px 20px 100px 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  }
+  
+                                                /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 2% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.),
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .Sign_Up_Button
+  {
+    width: 100% ;
+    background-color: #4caf50 ;
+  
+  }
+  .Sign_Up_Button:hover
+  {
+    background-color: orangered;
+  }
+  .form-style input
+  {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #f1f1f1;
+    display: block;
+    width:95%;
+    height:35px;
+  }
+  .form-style label{
+
+    padding: 5px ; 
+    font-weight: bold ;
+  }
+  
+  .hr-Shade
+  {
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+  }
+  #form-style label
+  {
+   font-weight: bold;
+  }  
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+ opacity:1;
+}
+
+button#top_button_1 {
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    background: #0000ff;
+    color: #fff;
+    float: right;   
+    margin:  5px ;               
+   
+   }
+   button#top_button_2 {
+       width: 90px;
+       padding: 10px;
+       cursor: pointer;
+       font-weight: 500;
+       background: #0000ff;
+       color: #fff;
+       float: right;  
+       margin:5px ;                
+      }
+
+   
+   .logo {
+   font-family: 'Montez', cursive; 
+   font-size: 50px;
+   color: #112fb4;
+   margin: auto;
+   text-decoration: none;
+   margin: 10px 10px 0px 10px;    
+   }
+   h1{
+       text-align: center;
+       font-family: 'Abel', sans-serif;
+   }
+   .sub_text{
+       font-family: 'Ubuntu Mono', cursive;
+       margin-top: 0;
+       margin: 0 0 0px 10px;
+       }
