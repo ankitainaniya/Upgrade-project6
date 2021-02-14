@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>   
+        <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+        <!-- <link href='..\css\font.css' rel='stylesheet' type='text/css'> -->
+        <link href='..\css\post.css' rel='stylesheet' type='text/css'>
+        <link href='..\css\header.css' rel='stylesheet' type='text/css'>
+</head>
+<body  onload="getParam()">    
+          <div class="header">
+      <button id ="top_button_1" >Sign Up</button>
+      <button id ="top_button_2" >Sign In</button>
+      <a id="logo_text" class="logo">ScriBBler</a>
+      <p class="sub_text">Explore Imagine Create</p>
+  </div>  
+
+    <div class="blogContent">
+        <div id="blogTitle" class="blogTite">
+        <h3 id="blogTitleNew" contenteditable="false" style="font-family: 'Bodoni MT'">
+            </h3>
+    </div>
+
+<div class="blogAuthor">
+
+    <!-- Insert code for Edit/Save button and  -->
+    <button id = "edit-save" onclick="EditSaveClicked()">Edit &#x270D;</button>
+
+    <p id="blogUsername" class="blogText" style = " font-family: 'French Script MT'; font-style: italic"> </p>
+</div>
+
+<div class="blogText">
+    <p id="blogBody" contenteditable="false" >
+            <!-- Iconetnt-->
+    </p>
+</div>
+
+    <!-- Insert code for Like button, Comment button, Comment box here-->
+    <div id = "footer-buttons">
+        <button id="like-press" onclick="incLikes()">
+              <span>&#128077; Like</span>  
+        </button><br>
+        <p id = "like-number-update">Be the first one to like this !!</p><br>
+        <textarea id="text-area" rows="6" cols="90" placeholder="Leave a comment..." style="color:black">
+        </textarea><br>
+        <button id ="comment-press" onclick="AddComment()">Comment</button>
+        <p>All Comments</p>
+	<table id="commentList">
+  		
+	</table>
+        
+    </div>
+<div id="signup_modal" class="modal">                  
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>
+      <h1>Get Started</h1>
+      <hr class = "hr-Shade">
+      <form class = "form-style">
+      <label>Full Name</label><br>
+      <input type="text" placeholder="Enter Full Name" required>      <br>           
+      <label>Username</label><br>
+      <input type="text" placeholder="Enter Username" required><br>                
+      <label>Password </label><br>
+      <input type="password" placeholder="Enter Password" required><br>                  
+      <label>Confirm Password</label><br>
+      <input type="password" placeholder="Confirm Password" required><br>                 
+      <button class = "Sign-Up-Button">Sign Up</button>
+      </form>       
+    </p>
+  </div>
+</div>
+          <!-- For Sign In -->
+<div id="signin_modal" class="modal">                  
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>
+      <h1>Welcome Back</h1>
+      <hr class = "hr-Shade">
+      <form class = "form-style">   
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" required>
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" required>
+      <button class = "Sign-Up-Button">Sign In</button><br>
+      Not a member ? <a id = "linking"><u style="color:blue">Sign Up</u></a>
+      </form>       
+    </p>
+  </div>
+</div>
+
+ <script src = "../js/post.js"></script>
+<script src="..\js\index.js">  </script>
+</body>
